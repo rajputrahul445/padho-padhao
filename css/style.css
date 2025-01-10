@@ -230,7 +230,10 @@ img.bannerImg {
     min-width: 530px;
     max-width: 100%;
 }
-
+.bannerContent {
+    position: relative;
+    z-index: 9;
+}
 section.banner .container {
     position: relative;
     margin: 150px auto 50px;

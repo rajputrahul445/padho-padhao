@@ -100,13 +100,17 @@
     .overLay.active {
         display: block;
     }
+    section.banner{
+        padding: 0;
+    }
     .bannerContent h1 {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 26px;
+        line-height: 30px;
+        margin: 0 0 10px;
     }
     
     .bannerContent h3 {
-        font-size: 15px;
+        font-size: 22px;
         line-height: 20px;
     }
     .bannerContent .listInline{
@@ -218,6 +222,9 @@
     
     section.inrBanner {
         padding: 0;
+    }
+    .beTheTeacher .col-md-6, .imgWithContent {
+        margin-bottom: 30px;
     }
     
 }
