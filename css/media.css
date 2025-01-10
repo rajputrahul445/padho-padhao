@@ -1,0 +1,232 @@
+
+
+@media screen and (min-width: 1366px) {
+    .container{max-width: 1250px;}
+}
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+    .contactUs, .contactUs.portnerActive{
+        background-size: 550px 100%;
+    }
+    .caseStudyWrp .owl-nav button{
+        left: -20px;
+        opacity: 0.5;
+    }
+    .caseStudyWrp .owl-nav button.owl-next{
+        right: -20px;
+    }
+    .colorBx h3 {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 991px){
+    body{padding-top: 50px;overflow-x: hidden;}
+    section{
+        overflow: hidden;
+    }
+    .mobile{display: block  !important;}
+    .desktop{display: none;}
+    .navbar-toggler i {
+        color: #000000;
+        font-size: 28px;
+    }
+    .navbar-brand img {
+        /* height: 50px; */
+    }
+    nav#mainNav .nav-item > a {
+        padding: 10px 0;
+        border-bottom: solid 1px #c3c3c329;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+   nav#mainNav .nav-item{
+    padding: 0;
+   }
+   nav#mainNav{
+    padding: 5px 15px;
+    background: #ffffff !important;
+   }
+    .navbar-light .navbar-toggler {
+        border: none;
+        padding: 0;
+        outline: none;
+    }
+    div#navbarSupportedContent {
+        position: fixed;
+        top: 0;
+        width: 320px;
+        left: -0px;
+        background: #ffffff;
+        height: 100vh;
+        padding: 20px;
+        z-index: 9;
+        display: block;
+        transform: translateX(-320px);
+        transition: all 400ms ease;
+        padding-top: 60px;
+    }
+    .cross-toggler {
+        background: #fff;
+        border: none;
+        color: #000;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 9999;
+    }
+    ul.navbar-nav.ml-auto {
+        height: calc(100vh - 60px);
+        overflow: auto;
+    }
+    div#navbarSupportedContent.active{
+        left: 320px;
+        transition: all 400ms ease;
+    }
+    .overLay {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(0 0 0 / 51%);
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    .overLay.active {
+        display: block;
+    }
+    .bannerContent h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    .bannerContent h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .bannerContent .listInline{
+        margin-top: 15px;
+    }
+    .sectionHeading h2{
+        font-size: 32px;
+    }
+    .sectionHeading h3{
+        font-size: 24px;
+    }
+    .trust .listInline {
+        flex-wrap: wrap;
+    }
+    
+    .trust {
+        padding: 30px 0;
+    }
+    
+    .colorBx {
+        margin-bottom: 30px;
+    }
+    
+    .caseStudyWrp h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .caseStudyWrp p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    
+    .caseStudyWrp .owl-nav button {
+        width: 40px;
+        left: -45px;
+    }
+    .testimonialWrp .owl-nav button{
+        width: 40px;
+    }
+    .caseStudyWrp .owl-nav button.owl-next {
+        right: -45px;
+    }
+    
+    .testimonialWrp {
+        width: 100%;
+    }
+    
+    .testimonialWrp .owl-nav {
+        right: 0;
+    }
+    
+    .testimonialWrp .owl-dots {
+        max-width: 100%;
+    }
+    .caseStudyWrp .owl-nav button{
+        left: -20px;
+        opacity: 0.5;
+    }
+    .caseStudyWrp .owl-nav button.owl-next{
+        right: -20px;
+    }
+    .footerLinkBx{
+        width: auto;
+        min-width: 100px;
+    }
+    .colorBx h3 {
+        font-size: 18px;
+    }
+    .tileBx p{
+        font-size: 16px;
+    }
+    .footerLink{
+        gap: 20px;
+    }
+    img.bannerImg {
+        min-width: 100%;
+        position: static;
+    }
+    section.banner .container {
+        margin-top: 50px;
+    }
+    
+    .searchBox {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .circleBx {
+        width: 244px;
+    }
+    
+    .applyWrp {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .subscribe {
+        margin-bottom: 30px;
+    }
+    .inerBannerContent h1 {
+        font-size: 24px;
+    }
+    
+    section.inrBanner > img {
+        min-height: 190px;
+        object-fit: cover;
+    }
+    
+    section.inrBanner {
+        padding: 0;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+  
+   .footerLink{
+    margin-top: 30px;
+   }
+}
+@media only screen and (max-width: 460px){
+
+}

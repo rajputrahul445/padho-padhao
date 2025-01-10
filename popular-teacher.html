@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Padho Padhao | Popular Teacher</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.0-beta/css/bootstrap-select.min.css" rel="stylesheet" />
+<!-- owl-scroller CSS -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+ <!-- Font Awesome css -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!-- Bootstrap CSS  -->
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<!-- Our Custom CSS -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Media Queries CSS -->
+<link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+	<header class="mainHeader">
+		<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+			<div class="container">
+		  <a class="navbar-brand p-0" href="#"><img src="images/logo-black.png" alt=""></a>
+		  <button class="navbar-toggler">
+		    <i class="fas fa-bars"></i>
+		  </button>
+		  <div class="overLay"></div>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  	<button class="hidden-xs mobile cross-toggler">
+		    	<i class="fas fa-times"></i>
+		  	</button>
+		    <ul class="navbar-nav ml-auto">
+		      <li class="mobile">
+		      	<img src="images/logo-black.png" alt="">
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">About Us</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Teachers</a>
+		      </li>
+			  <li class="nav-item">
+		        <a class="nav-link" href="#">Contact Us</a>
+		      </li>
+		      <li class="nav-item navBtn">
+		        <a class="nav-link colorBtn" data-toggle="modal" data-target="#contactPop">Sign Up</a>
+		      </li>
+		    </ul>
+		  </div>
+		  </div>
+		</nav>
+	</header>
+	<section class="inrBanner">
+		<div class="container">
+			<div class="inerBannerContent">
+				<h1>Meet Our पॉपुलर टीचर</h1>
+			</div>
+		</div>
+		<img src="images/inner-banner.png" class=""/>
+	</section>
+	<section class="breadcrum">
+		<div class="container">
+			<ul class="listInline">
+				<li>Home</li>
+				<li><a href="#">Teachers</a></li>
+			</ul>
+		</div>
+	</section>
+	<section class="showResult">
+		<div class="container">
+			<div class="showResultBx">
+				<h3>Showing all 12 result</h3>
+				<div class="ratingDrop">
+					<span>Sort By:</span>
+					<select>
+						<option>Rating</option>
+						<option>Rating</option>
+						<option>Rating</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="filter" id="filter">
+		<div class="container">
+			<div class="filterSelected">
+				<p>Filter:</p>
+				<button>Remove All</button>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-12">
+					<div class="filterBx">
+						<h3>Medium</h3>
+						<ul class="unorderList">
+							<li class="customCheckbox">
+								<input type="checkbox" id="box1" name="">
+								<label for="box1">English</label>
+								<span>(36)</span>
+							</li>
+							<li class="customCheckbox">
+								<input type="checkbox" id="box2" name="">
+								<label for="box2">Hindi</label>
+								<span>(30)</span>
+							</li>
+						</ul>
+					</div>
+					<div class="filterBx">
+						<h3>Class</h3>
+						<ul class="unorderList">
+							<li class="customCheckbox">
+								<input type="checkbox" id="box3" name="">
+								<label for="box3">LKG-UKG</label>
+								<span>(24)</span>
+							</li>
+							<li class="customCheckbox">
+								<input type="checkbox" id="box4" name="">
+								<label for="box4">1st - 5th</label>
+								<span>(18)</span>
+							</li>
+							<li class="customCheckbox">
+								<input type="checkbox" id="box3" name="">
+								<label for="box3">LKG-UKG</label>
+								<span>(24)</span>
+							</li>
+							<li class="customCheckbox">
+								<input type="checkbox" id="box4" name="">
+								<label for="box4">1st - 5th</label>
+								<span>(18)</span>
+							</li>
+							<li class="customCheckbox">
+								<input type="checkbox" id="box3" name="">
+								<label for="box3">LKG-UKG</label>
+								<span>(24)</span>
+							</li>
+							<li class="customCheckbox">
+								<input type="checkbox" id="box4" name="">
+								<label for="box4">1st - 5th</label>
+								<span>(18)</span>
+							</li>
+							<li class="customCheckbox">
+								<input type="checkbox" id="box3" name="">
+								<label for="box3">LKG-UKG</label>
+								<span>(24)</span>
+							</li>
+							<li class="customCheckbox">
+								<input type="checkbox" id="box4" name="">
+								<label for="box4">1st - 5th</label>
+								<span>(18)</span>
+							</li>
+						</ul>
+					</div>
+					<div class="filterBx">
+						<h3>Time Slots</h3>
+						<ul class="unorderList">
+							<li class="customCheckboxLong">
+								<input type="checkbox" id="longbox1" name="">
+								<label for="longbox1">10:00AM - 11:00AM</label>
+							</li>
+							<li class="customCheckboxLong">
+								<input type="checkbox" id="longbox2" name="">
+								<label for="longbox2">11:00AM - 12:00AM</label>
+							</li>
+							<li class="customCheckboxLong">
+								<input type="checkbox" id="longbox3" name="">
+								<label for="longbox3">12:00AM - 01:00PM</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-9 col-12">
+					<div class="row">
+						<div class="col-md-4 col-12 mb-4">
+							<div class="teacherBx">
+								<img src="images/teacher.png" alt="" />
+								<h3>Shamsher Sir</h3>
+								<p>M.Sc In Mathematics<br/>
+									20 Years Experiance</p>
+								<ul class="listInline">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star-half-alt"></i></li>
+									<li><i class="far fa-star"></i></li>
+									<li><span>(30 reviews)</span></li>
+								</ul>
+								<div class="d-flex">
+									<a href="#" class="blackBtn">More Info</a>
+									<a href="#" class="colorBtn">Connect</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="teacherBx">
+								<img src="images/teacher.png" alt="" />
+								<h3>Shamsher Sir</h3>
+								<p>M.Sc In Mathematics<br/>
+									20 Years Experiance</p>
+								<ul class="listInline">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star-half-alt"></i></li>
+									<li><i class="far fa-star"></i></li>
+									<li><span>(30 reviews)</span></li>
+								</ul>
+								<div class="d-flex">
+									<a href="#" class="blackBtn">More Info</a>
+									<a href="#" class="colorBtn">Connect</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="teacherBx">
+								<img src="images/teacher.png" alt="" />
+								<h3>Shamsher Sir</h3>
+								<p>M.Sc In Mathematics<br/>
+									20 Years Experiance</p>
+								<ul class="listInline">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star-half-alt"></i></li>
+									<li><i class="far fa-star"></i></li>
+									<li><span>(30 reviews)</span></li>
+								</ul>
+								<div class="d-flex">
+									<a href="#" class="blackBtn">More Info</a>
+									<a href="#" class="colorBtn">Connect</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="teacherBx">
+								<img src="images/teacher.png" alt="" />
+								<h3>Shamsher Sir</h3>
+								<p>M.Sc In Mathematics<br/>
+									20 Years Experiance</p>
+								<ul class="listInline">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star-half-alt"></i></li>
+									<li><i class="far fa-star"></i></li>
+									<li><span>(30 reviews)</span></li>
+								</ul>
+								<div class="d-flex">
+									<a href="#" class="blackBtn">More Info</a>
+									<a href="#" class="colorBtn">Connect</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="teacherBx">
+								<img src="images/teacher.png" alt="" />
+								<h3>Shamsher Sir</h3>
+								<p>M.Sc In Mathematics<br/>
+									20 Years Experiance</p>
+								<ul class="listInline">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star-half-alt"></i></li>
+									<li><i class="far fa-star"></i></li>
+									<li><span>(30 reviews)</span></li>
+								</ul>
+								<div class="d-flex">
+									<a href="#" class="blackBtn">More Info</a>
+									<a href="#" class="colorBtn">Connect</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="teacherBx">
+								<img src="images/teacher.png" alt="" />
+								<h3>Shamsher Sir</h3>
+								<p>M.Sc In Mathematics<br/>
+									20 Years Experiance</p>
+								<ul class="listInline">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star-half-alt"></i></li>
+									<li><i class="far fa-star"></i></li>
+									<li><span>(30 reviews)</span></li>
+								</ul>
+								<div class="d-flex">
+									<a href="#" class="blackBtn">More Info</a>
+									<a href="#" class="colorBtn">Connect</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="teacherBx">
+								<img src="images/teacher.png" alt="" />
+								<h3>Shamsher Sir</h3>
+								<p>M.Sc In Mathematics<br/>
+									20 Years Experiance</p>
+								<ul class="listInline">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star-half-alt"></i></li>
+									<li><i class="far fa-star"></i></li>
+									<li><span>(30 reviews)</span></li>
+								</ul>
+								<div class="d-flex">
+									<a href="#" class="blackBtn">More Info</a>
+									<a href="#" class="colorBtn">Connect</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="teacherBx">
+								<img src="images/teacher.png" alt="" />
+								<h3>Shamsher Sir</h3>
+								<p>M.Sc In Mathematics<br/>
+									20 Years Experiance</p>
+								<ul class="listInline">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star-half-alt"></i></li>
+									<li><i class="far fa-star"></i></li>
+									<li><span>(30 reviews)</span></li>
+								</ul>
+								<div class="d-flex">
+									<a href="#" class="blackBtn">More Info</a>
+									<a href="#" class="colorBtn">Connect</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="teacherBx">
+								<img src="images/teacher.png" alt="" />
+								<h3>Shamsher Sir</h3>
+								<p>M.Sc In Mathematics<br/>
+									20 Years Experiance</p>
+								<ul class="listInline">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star-half-alt"></i></li>
+									<li><i class="far fa-star"></i></li>
+									<li><span>(30 reviews)</span></li>
+								</ul>
+								<div class="d-flex">
+									<a href="#" class="blackBtn">More Info</a>
+									<a href="#" class="colorBtn">Connect</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="pagination mt-5 pl-5">
+						<ul class="listInline">
+							<li>
+								<button disabled>First</button>
+							</li>
+							<li>
+								<button>1</button>
+							</li>
+							<li>
+								<button class="active">2</button>
+							</li>
+							<li>
+								<button>3</button>
+							</li>
+							<li>
+								<button>Next</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="beTheTeacher">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 col-12">
+					<img src="images/be-a-volunteer-and-be-the-chnage.png" alt=""/>
+				</div>
+				<div class="col-md-6 col-12">
+					<div class="sectionHeading mb-4">
+						<h2>Be a Teacher and Be the <span>Change</span></h2>
+						<h3>Join us as a Teacher at PadhoPadhao. Your time and passion will create a powerful impact on the lives of the children of rural India. You can teach from the comfort of your home or office in your regional language. Be a part of this transformative journey.</h3>
+					</div>
+					<a href="#" class="colorBtn">Signup as a Teacher</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="footer">
+		<div class="container">
+		   <div class="row">
+			  <div class="col-md-4 col-12 mb-4 pe-5">
+				 <div class="footerLinks mb-4">
+					<div class="logo mb-2"><a href="/"><img src="/images/logo.png" alt=""></a></div>
+					<div class="d-flex mb-3 align-items-center gap-4">
+						<img src="images/location.png" alt=""/>
+						<p>Wisconsin Ave, Suite 700<br/>
+							Chevy Chase, Maryland 20815</p>
+					</div>
+					<div class="d-flex mb-3 align-items-center gap-4">
+						<img src="images/mail.png" alt=""/>
+						<p><a href="mailto:support@padhopadhao.com">support@padhopadhao.com</a></p>
+					</div>
+					<div class="d-flex mb-3 align-items-center gap-4">
+						<img src="images/call.png" alt=""/>
+						<p><a href="tel:+91 12345 67890">+91 12345 67890</a></p>
+					</div>
+				 </div>
+			  </div>
+			  <div class="col">
+				 <div class="footerLinks mb-4">
+					<h3>Value</h3>
+					<ul class="unorderList">
+					   <li><a href="/">Our Vision</a></li>
+					   <li><a href="/">Our Mission</a></li>
+					   <li><a href="/">Our Teachers</a></li>
+					</ul>
+				 </div>
+			  </div>
+			  <div class="col">
+				 <div class="footerLinks mb-4">
+					<h3>Quick Links</h3>
+					<ul class="unorderList">
+					   <li><a href="/">Home</a></li>
+					   <li><a href="/">About Us</a></li>
+					   <li><a href="/">Contact</a></li>
+					   <li><a href="/">Professionals</a></li>
+					   <li><a href="/">Insights</a></li>
+					   <li><a href="/">HR Solutions</a></li>
+					</ul>
+				 </div>
+			  </div>
+			  <div class="col-md-4 col-12 mb-4">
+				 <div class="subscribe">
+					<h3>Subscribe to our <span>newsletter</span></h3>
+					<div class="subMail">
+					   <input type="text" name="email" id="email" placeholder="Enter your email Address">
+					   <button class="colorBtn">Subscribe</button>
+					</div>
+					<p>Subscribe to stay tuned for news and latest updates. Let's do it! </p>
+					<ul class="listInline">
+						<li><span>Follow us:</span></li>
+						<li><a href="#"><img src="images/facebook.png" alt=""/></a></li>
+						<li><a href="#"><img src="images/twitter.png" alt=""/></a></li>
+						<li><a href="#"><img src="images/insta.png" alt=""/></a></li>
+					</ul>
+				 </div>
+			  </div>
+		   </div>
+		</div>
+		<div class="container">
+			<p class="py-3 text-center border-top m-0">© 2021 All Rights Reserved</p>
+		</div>
+	 </footer>
+	<div class="modal fade" id="contactPop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<div class="modal-body contactUs">
+				<div class="container p-0">
+					<div class="row">
+						<div class="col-md-6 col-12">
+							<div class="contactTile">
+								<img src="images/login-banner.png" alt=""/>
+							</div>
+						</div>
+						<div class="col-md-6 col-12">
+							<div class="contactBx">
+								<img src="images/logo-black.png" alt="" class="mb-4"/>
+								<h3>Nice to see you again</h3>
+								<div class="form-group">
+									<label>Login</label>
+									<input type="text" name="" id="" class="form-control" placeholder="Email or phone number"/>
+								</div>
+								<div class="form-group">
+									<label>Password</label>
+									<input type="password" name="" id="password" class="form-control" placeholder="Enter password"/>
+									<div id="passEye">
+										<i class="far fa-eye showPass" onclick="myFunction()"></i>
+										<i class="fas fa-eye-slash" onclick="myFunction()"></i>
+									</div>
+									<p class="text-right"><a href="#">Forgot password?</a></p>
+								</div>
+								
+								<div class="form-group">
+									<button class="colorBtn fullWidth justify-content-center">Sign in</button>
+								</div>
+								<div class="contactAdditional">
+									<h5>Dont have an account? Sign Up as:</h5>
+									<div class="d-flex">
+										<button class="lineBtn">
+											<img src="images/teachers-ico.png" alt="" />
+											Teachers
+										</button>
+										<button class="lineBtn">
+											<img src="images/student-ico.png" alt="" />
+											Student
+										</button>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<!-- Scroll-effect JS -->
+<script src="js/local.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.0-beta/js/bootstrap-select.min.js"></script>
+<script>
+    $('#mySelect').selectpicker();
+</script>
+</body>
+
+</html>
