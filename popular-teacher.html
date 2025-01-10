@@ -6,8 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Padho Padhao | Popular Teacher</title>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.0-beta/css/bootstrap-select.min.css" rel="stylesheet" />
+<title>Padho Padhao | Homepage</title>
+<!-- Animation CSS -->
+<link rel="stylesheet" href="css/aos.css">
 <!-- owl-scroller CSS -->
 <link rel="stylesheet" href="css/owl.carousel.min.css">
  <!-- Font Awesome css -->
@@ -529,9 +530,12 @@
 <!-- Scroll-effect JS -->
 <script src="js/local.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.0-beta/js/bootstrap-select.min.js"></script>
+<script src="js/aos.js"></script>
 <script>
-    $('#mySelect').selectpicker();
+  AOS.init({
+   once: false,
+   duration: 800,
+  });
 </script>
 </body>
 

@@ -221,7 +221,7 @@ nav#mainNav .nav-item > a:hover, .dropmenu:hover > a {
 }
 section.banner {
     position: relative;
-    padding: 0;
+    padding-bottom: 0;
 }
 img.bannerImg {
     position: absolute;
