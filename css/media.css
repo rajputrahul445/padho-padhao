@@ -120,7 +120,7 @@
         font-size: 32px;
     }
     .sectionHeading h3{
-        font-size: 24px;
+        font-size: 20px;
     }
     .trust .listInline {
         flex-wrap: wrap;
@@ -229,7 +229,9 @@
     
 }
 @media only screen and (max-width: 767px){
-  
+    .filterSelected {
+        justify-content: space-between;
+    }
    .footerLink{
     margin-top: 30px;
    }

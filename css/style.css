@@ -442,7 +442,7 @@ section#popular .owl-stage-outer {
     font-weight: 400;
 }
 .imgWithContent {
-    border-radius: 25px 60px;
+    border-radius: 35px 70px;
     overflow: hidden;
     background: #fff;
     transition: all 500ms ease;
@@ -705,6 +705,9 @@ section.inrBanner .inerBannerContent {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 0 30px;
 }
 
 .inerBannerContent h1 {
