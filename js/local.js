@@ -54,7 +54,7 @@ $(document).ready(function(){
     navText : ["<img src='images/angle-left.png' />","<img src='images/angle-right.png' />"],
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:2
@@ -91,11 +91,8 @@ $( ".navbar-toggler, .cross-toggler" ).click(function() {
   $("#navbarSupportedContent").toggleClass("active");
   $(".overLay").toggleClass("active");
 });
-$( "#Partner-Field-tab" ).click(function() {
-  $(".contactUs").addClass("portnerActive");
-});
-$( "#Customer-Field-tab" ).click(function() {
-  $(".contactUs").removeClass("portnerActive");
+$( ".filterBx h3" ).click(function() {
+    $(this).siblings().toggleClass("active");
 });
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();

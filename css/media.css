@@ -43,7 +43,7 @@
     padding: 0;
    }
    nav#mainNav{
-    padding: 5px 15px;
+    padding: 12px 15px;
     background: #ffffff !important;
    }
     .navbar-light .navbar-toggler {
@@ -102,6 +102,12 @@
     }
     section.banner{
         padding: 0;
+    }
+    section.banner .container {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        gap: 30px;
     }
     .bannerContent h1 {
         font-size: 26px;
@@ -191,7 +197,7 @@
         position: static;
     }
     section.banner .container {
-        margin-top: 50px;
+        margin: 30px auto;
     }
     
     .searchBox {
@@ -225,6 +231,32 @@
     }
     .beTheTeacher .col-md-6, .imgWithContent {
         margin-bottom: 30px;
+    }
+    .filterBx .unorderList {
+        display: none;
+    }
+    
+    .filterBx .unorderList.active {
+        display: block;
+    }
+    .teacherBx h3 {
+        font-size: 16px;
+    }
+    
+    .teacherBx p {
+        font-size: 14px;
+    }
+    
+    .teacherBx .listInline, .teacherBx .d-flex {
+        flex-wrap: wrap;
+    }
+    
+    .teacherBx .listInline li {
+        font-size: 14px;
+    }
+    
+    .teacherBx .d-flex a {
+        width: 100%;
     }
     
 }
