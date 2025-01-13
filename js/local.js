@@ -92,7 +92,7 @@ $( ".navbar-toggler, .cross-toggler" ).click(function() {
   $(".overLay").toggleClass("active");
 });
 $( ".filterBx h3" ).click(function() {
-    $(this).siblings().toggleClass("active");
+    $(this).parent().toggleClass("active");
 });
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();

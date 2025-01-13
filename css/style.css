@@ -900,6 +900,23 @@ section.showResult {
     display: block;
 }
 
-.filterBx .unorderList.active {
+.filterBx.active .unorderList {
     display: none;
+}
+.filterBx h3:after {
+    content: 'f107';
+    content: '\f107';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    right: 0;
+    font-size: 22px;
+    top: -3px;
+    transform: rotate(-180deg);
+}
+
+.filterBx h3 {
+    position: relative;
+}
+.filterBx.active h3:after {
+    transform: rotate(0);
 }
